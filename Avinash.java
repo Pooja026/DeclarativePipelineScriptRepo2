@@ -7,6 +7,7 @@ public class Avinash
 		int count=0;
 		char[] a1=str.toCharArray();
 		System.out.println("Duplicate letters are:");
+		for(int i=0;i<str.length();i++)
  		{
 			for(int j=i+1;j<str.length();j++)
 			{
